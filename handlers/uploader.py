@@ -20,7 +20,7 @@ from pyrogram.types import Message
 
 
 class Upload_to_Tg:
-    def __init__(self, bot: ,Client m: Message, name: str, file_path, path, Thumb, show_msg: Message, caption: str) -> None:
+    def __init__(self, bot: Client, m: Message, name: str, file_path: str, path: str, Thumb, show_msg: Message, caption: str) -> None:
         self.bot = bot
         self.m = m
         self.name = name
