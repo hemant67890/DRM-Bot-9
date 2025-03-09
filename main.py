@@ -6,7 +6,6 @@ from pyrogram.types import ChatMember
 import asyncio
 import logging
 import tgcrypto
-from logger import logging
 from logging.handlers import RotatingFileHandler
 
 # Config 
