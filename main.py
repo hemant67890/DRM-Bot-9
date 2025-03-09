@@ -10,9 +10,9 @@ from logging.handlers import RotatingFileHandler
 
 # Config 
 class Config(object):
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7680621096:AAGRq_5ibk0oxQOMXgXn5yiduEoRk-PQV84")
-    API_ID = int(os.environ.get("API_ID",  "28094744"))
-    API_HASH = os.environ.get("API_HASH", "a75af4285edc7747c57bb19147ca0b9b")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7429048456:AAEH21RqF9AuwkjFl7FcnpGtJd4B2_uTsHk")
+    API_ID = int(os.environ.get("API_ID",  "22594398"))
+    API_HASH = os.environ.get("API_HASH", "3a2408d97d6a222d87766dac2da302df")
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     SESSIONS = "./SESSIONS"
     
