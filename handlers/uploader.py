@@ -13,7 +13,8 @@ import requests
 import asyncio
 import datetime
 from helpers.toolkit import Tools, Vidtools
-from main import Config, Msg, Store, LOGGER as LOGS
+from main import Config, Msg, Store
+from logger import logger as LOGS
 from helpers.prog_bar import progress_for_pyrogram
 from pyrogram import Client
 from pyrogram.types import Message
