@@ -1,4 +1,5 @@
-from main import LOGGER as LOGS, prefixes, Config, Msg
+from main import prefixes, Config, Msg
+from logger import logger as LOGS
 from pyrogram import Client
 from pyrogram.types import Message
 from handlers.html import parse_html
