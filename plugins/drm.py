@@ -12,7 +12,7 @@ from handlers.uploader import Upload_to_Tg
 from handlers.tg import TgClient
 
 
-@janu.on_message(filters.command("drm", prefixes=prefixes))
+@bot.on_message(filters.command("drm", prefixes=prefixes))
 async def drm(bot: janu, m: Message):
     path = f"{Config.DOWNLOAD_LOCATION}/{m.chat.id}"
     tPath = f"{Config.DOWNLOAD_LOCATION}/THUMB/{m.chat.id}"
