@@ -1,5 +1,5 @@
 import os
-from pyrogram import Client as bot, idle
+from pyrogram import Client
 from pyrogram.enums import ChatMemberStatus, ChatMembersFilter
 from pyrogram import enums
 from pyrogram.types import ChatMember
