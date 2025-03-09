@@ -1,5 +1,6 @@
 from pyrogram import filters, Client
-from main import LOGGER as LOGS, prefixes
+from main import prefixes
+from logger import logger as LOGS
 from pyrogram.types import Message
 from main import Config
 import os
