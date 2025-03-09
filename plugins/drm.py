@@ -1,5 +1,5 @@
 from fileinput import filename
-from pyrogram import filters, Client
+from pyrogram import filters, Client as janu
 from logger import logger as LOGGER
 from pyrogram.types import Message
 from main import Config
@@ -12,8 +12,8 @@ from handlers.uploader import Upload_to_Tg
 from handlers.tg import TgClient
 
 
-@bot.on_message(filters.command("drm", prefixes=prefixes))
-async def drm(bot: Client, m: Message):
+@janu.on_message(filters.command("drm", prefixes=prefixes))
+async def drm(bot: janu, m: Message):
     path = f"{Config.DOWNLOAD_LOCATION}/{m.chat.id}"
     tPath = f"{Config.DOWNLOAD_LOCATION}/THUMB/{m.chat.id}"
     os.makedirs(path, exist_ok=True)
