@@ -6,14 +6,14 @@ from pyrogram.types import ChatMember
 import asyncio
 import logging
 import tgcrypto
-import logging
+from logger import logging
 from logging.handlers import RotatingFileHandler
 
 # Config 
 class Config(object):
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7535024319:AAFbk6M1WuFQMEhqGsE2B9mg7VzXutJ1UW8")
-    API_ID = int(os.environ.get("API_ID",  "22100695"))
-    API_HASH = os.environ.get("API_HASH", "0e8f93300ccbbcd56066e6d790b0d3b2")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7680621096:AAGRq_5ibk0oxQOMXgXn5yiduEoRk-PQV84")
+    API_ID = int(os.environ.get("API_ID",  "28094744"))
+    API_HASH = os.environ.get("API_HASH", "a75af4285edc7747c57bb19147ca0b9b")
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     SESSIONS = "./SESSIONS"
     
