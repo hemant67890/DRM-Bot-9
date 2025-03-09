@@ -5,8 +5,8 @@
 ''' ----Adding Support of diffrent links---- '''
 
 
-import logging as LOGS, prefixes
-from main import Config, Store
+import logging as LOGS
+from main import Config, Store, prefixes
 import datetime
 import asyncio
 import requests
