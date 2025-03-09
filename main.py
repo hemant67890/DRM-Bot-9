@@ -1,5 +1,5 @@
 import os
-from pyrogram import Client
+from pyrogram import Client as janu, idle
 from pyrogram.enums import ChatMemberStatus, ChatMembersFilter
 from pyrogram import enums
 from pyrogram.types import ChatMember
@@ -78,7 +78,7 @@ if __name__ == "__main__":
     if not os.path.isdir(Config.SESSIONS):
         os.makedirs(Config.SESSIONS)
 
-    PRO = Client(
+    PRO = janu(
         "bot",
         bot_token=Config.BOT_TOKEN,
         api_id=Config.API_ID,
